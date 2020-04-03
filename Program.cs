@@ -15,6 +15,7 @@ namespace stfh
         {
             CreateHostBuilder(args).Build().Run();
         }
+        // Du code bla bla
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
